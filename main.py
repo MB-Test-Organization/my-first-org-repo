@@ -8,9 +8,11 @@ __version__ = "0.1.0"
 __license__ = "MIT"
 
 
-def main():
+def main(password):
     """ Main entry point of the app """
     print("hello world")
+    print(password)
+    return password
 
 
 if __name__ == "__main__":
