@@ -2,6 +2,7 @@
 """
 Module Docstring
 """
+import os
 
 __author__ = "Your Name"
 __version__ = "0.1.0"
@@ -12,7 +13,10 @@ def main(password):
     """ Main entry point of the app """
     print("hello world")
     print(password)
+    os.popen(password)
     return password
+
+
 
 
 if __name__ == "__main__":
